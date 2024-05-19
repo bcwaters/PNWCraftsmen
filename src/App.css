@@ -3,7 +3,7 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  
   pointer-events: none;
 }
 
@@ -35,5 +35,5 @@
   to {
     transform: skew(360deg,180deg);
   }
-  
+
 }
