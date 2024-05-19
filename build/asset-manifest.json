@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/www.PNWCraftsmenPDX.com/static/css/main.f855e6bc.css",
+    "main.js": "/www.PNWCraftsmenPDX.com/static/js/main.fd38b35f.js",
+    "static/js/453.8265f4e9.chunk.js": "/www.PNWCraftsmenPDX.com/static/js/453.8265f4e9.chunk.js",
+    "static/media/business_card_front.png": "/www.PNWCraftsmenPDX.com/static/media/business_card_front.ef69b7868a5344ac3c21.png",
+    "index.html": "/www.PNWCraftsmenPDX.com/index.html",
+    "main.f855e6bc.css.map": "/www.PNWCraftsmenPDX.com/static/css/main.f855e6bc.css.map",
+    "main.fd38b35f.js.map": "/www.PNWCraftsmenPDX.com/static/js/main.fd38b35f.js.map",
+    "453.8265f4e9.chunk.js.map": "/www.PNWCraftsmenPDX.com/static/js/453.8265f4e9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.fd38b35f.js"
+  ]
+}
