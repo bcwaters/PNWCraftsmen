@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.c802c83b.css",
-    "main.js": "/static/js/main.6a19c52e.js",
+    "main.css": "/static/css/main.e0848740.css",
+    "main.js": "/static/js/main.fbc58767.js",
     "static/js/453.8265f4e9.chunk.js": "/static/js/453.8265f4e9.chunk.js",
-    "static/media/business_card_front.png": "/static/media/business_card_front.ef69b7868a5344ac3c21.png",
+    "static/media/business_card_front.png": "/static/media/business_card_front.176be43f70354c38f2a0.png",
     "index.html": "/index.html",
-    "main.c802c83b.css.map": "/static/css/main.c802c83b.css.map",
-    "main.6a19c52e.js.map": "/static/js/main.6a19c52e.js.map",
+    "main.e0848740.css.map": "/static/css/main.e0848740.css.map",
+    "main.fbc58767.js.map": "/static/js/main.fbc58767.js.map",
     "453.8265f4e9.chunk.js.map": "/static/js/453.8265f4e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c802c83b.css",
-    "static/js/main.6a19c52e.js"
+    "static/css/main.e0848740.css",
+    "static/js/main.fbc58767.js"
   ]
 }
