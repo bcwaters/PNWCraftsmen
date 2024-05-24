@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
-import ContentBody from './components/HomePage';
+import ContentBody from './components/ContentBody';
 import TopBar from './components/TopBar';
 import Footer from './components/Footer'
 import './App.css';
 
 function App() {
 
-    const [name, setPageName] = useState("HomePage")
+    const [name, setPageName] = useState("Home")
 
 
   return (

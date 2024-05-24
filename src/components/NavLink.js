@@ -15,9 +15,7 @@ class NavLink extends React.Component {
     render(){
       return(
         <div onClick={this.onClick} className="NavLink">
-
-      {this.props.text}
-
+          {this.props.text.replace(" ","\n")}
         </div>
       );
     }
