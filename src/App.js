@@ -1,13 +1,19 @@
-import logo from './business_card_front.png';
+import React, { useState } from 'react';
+import ContentBody from './components/HomePage';
+import TopBar from './components/TopBar';
+import Footer from './components/Footer'
 import './App.css';
 
 function App() {
+
+    const [name, setPageName] = useState("HomePage")
+
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-
-      </header>
+      <TopBar setPageName={setPageName}/>
+      <ContentBody pageName={name}/>
+      <Footer />
     </div>
   );
 }
