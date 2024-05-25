@@ -1,6 +1,18 @@
 import React from 'react';
 
 class HomeView extends React.Component {
+  constructor(props) {
+  super(props);
+  this.state = {showGallery:false};
+  this.toggleGallery = this.toggleGallery.bind(this);
+
+  }
+
+  toggleGallery(){
+
+    this.setState({showGallery:!this.state.showGallery})
+  }
+
     render(){
       return(
         <div className="HomeView">

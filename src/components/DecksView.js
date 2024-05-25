@@ -1,7 +1,20 @@
 import React from 'react';
 import deckIcon from '../res/deckicon.png'
+import PhotoGallery from "./PhotoGallery.js"
 
 class DecksView extends React.Component {
+  constructor(props) {
+  super(props);
+  this.state = {showGallery:false};
+  this.toggleGallery = this.toggleGallery.bind(this);
+
+  }
+
+  toggleGallery(){
+
+    this.setState({showGallery:!this.state.showGallery})
+  }
+
     render(){
       return(
         <div className="ContentView">
@@ -28,8 +41,10 @@ class DecksView extends React.Component {
           </div>
 
           <div className = "ContentIcon">
-                <img src={deckIcon} className="GalleryIcon" alt="logo" />
-                  <div className="GalleryLink">Click to view decks</div>
+                <img onClick={this.toggleGallery} src={deckIcon} className="GalleryIcon" alt="logo" />
+                <div onClick={this.toggleGallery} className="GalleryLink">Click to view decks</div>
+
+                <PhotoGallery galleryImages={[deckIcon]} toggleGallery={this.toggleGallery} showGallery={this.state.showGallery}/>
           </div>
         </div>
       );
