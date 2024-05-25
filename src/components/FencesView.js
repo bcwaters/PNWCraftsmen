@@ -1,7 +1,27 @@
 import React from 'react';
 import fenceIcon from "../res/fenceicon.png"
+import PhotoGallery from "./PhotoGallery.js"
+
+
+import deckIcon from "../res/deckicon.png"
+import stockFence from "../res/stockFencepg.jpeg"
+
 class FencesView extends React.Component {
+
+  constructor(props) {
+  super(props);
+  this.state = {showGallery:false};
+  this.toggleGallery = this.toggleGallery.bind(this);
+
+  }
+
+  toggleGallery(){
+
+    this.setState({showGallery:!this.state.showGallery})
+  }
+
     render(){
+
       return(
         <div className="ContentView">
           <div className="ContentDescription">
@@ -20,8 +40,10 @@ class FencesView extends React.Component {
           </div>
 
           <div className = "ContentIcon">
-                <img src={fenceIcon} className="GalleryIcon" alt="logo" />
-                <div className="GalleryLink">Click to view fences</div>
+                <img onClick={this.toggleGallery} src={fenceIcon} className="GalleryIcon" alt="logo" />
+                <div onClick={this.toggleGallery} className="GalleryLink">Click to view fences</div>
+
+                <PhotoGallery galleryImages={[fenceIcon, deckIcon,stockFence]} toggleGallery={this.toggleGallery} showGallery={this.state.showGallery}/>
           </div>
 
         </div>

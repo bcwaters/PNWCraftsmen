@@ -57,7 +57,7 @@
 
 }
 
-.galleryLink:hover {
+.GalleryLink:hover {
     cursor: pointer;
     border-bottom-width:1px;
     border-bottom-style:dotted;
