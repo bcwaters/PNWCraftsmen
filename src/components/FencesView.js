@@ -1,9 +1,9 @@
 import React from 'react';
-
+import fenceIcon from "../res/fenceicon.png"
 class FencesView extends React.Component {
     render(){
       return(
-        <div className="FencesView">
+        <div className="ContentView">
           <div className="ContentDescription">
             The average lifespan of a good cedar fence ranges
             between 15 to 40 years. Often the posts and railings begin to fail before
@@ -16,10 +16,14 @@ class FencesView extends React.Component {
 
             <br/>
             PHONE EMAIL CHAT
-
-
             <br/>
           </div>
+
+          <div className = "ContentIcon">
+                <img src={fenceIcon} className="GalleryIcon" alt="logo" />
+                <div className="GalleryLink">Click to view fences</div>
+          </div>
+
         </div>
       );
     }

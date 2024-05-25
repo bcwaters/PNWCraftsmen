@@ -9,13 +9,12 @@ class ContactView extends React.Component {
             <br/><br/>
             We want to talk with you!
             <br/><br/>
-
             <br/>
             PHONE EMAIL CHAT
-
-
             <br/>
           </div>
+      
+
         </div>
       );
     }

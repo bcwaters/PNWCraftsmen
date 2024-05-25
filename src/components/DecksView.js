@@ -1,9 +1,10 @@
 import React from 'react';
+import deckIcon from '../res/deckicon.png'
 
 class DecksView extends React.Component {
     render(){
       return(
-        <div className="DecksView">
+        <div className="ContentView">
           <div className="ContentDescription">
             Decks should be pleasing to the eye,
             increase the amount of space utilized on your property, and add value to your home.
@@ -24,6 +25,11 @@ class DecksView extends React.Component {
 
 
             <br/>
+          </div>
+
+          <div className = "ContentIcon">
+                <img src={deckIcon} className="GalleryIcon" alt="logo" />
+                  <div className="GalleryLink">Click to view decks</div>
           </div>
         </div>
       );
