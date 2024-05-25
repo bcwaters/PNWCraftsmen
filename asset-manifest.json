@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.8d0e44e9.css",
-    "main.js": "/static/js/main.83486a58.js",
+    "main.css": "/static/css/main.a5ccd60e.css",
+    "main.js": "/static/js/main.d27e5bad.js",
     "static/js/453.8265f4e9.chunk.js": "/static/js/453.8265f4e9.chunk.js",
+    "static/media/business_card_front.png": "/static/media/business_card_front.ef69b7868a5344ac3c21.png",
     "static/media/footerImage.png": "/static/media/footerImage.8d78e5074b0a54f965a2.png",
     "static/media/stockFencepg.jpeg": "/static/media/stockFencepg.b80e7855ddce910b709f.jpeg",
     "static/media/deckicon.png": "/static/media/deckicon.affe1e5389b030354c11.png",
     "static/media/TopBarImage.png": "/static/media/TopBarImage.1099e1187e6d04566d81.png",
     "index.html": "/index.html",
-    "main.8d0e44e9.css.map": "/static/css/main.8d0e44e9.css.map",
-    "main.83486a58.js.map": "/static/js/main.83486a58.js.map",
+    "main.a5ccd60e.css.map": "/static/css/main.a5ccd60e.css.map",
+    "main.d27e5bad.js.map": "/static/js/main.d27e5bad.js.map",
     "453.8265f4e9.chunk.js.map": "/static/js/453.8265f4e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8d0e44e9.css",
-    "static/js/main.83486a58.js"
+    "static/css/main.a5ccd60e.css",
+    "static/js/main.d27e5bad.js"
   ]
 }
