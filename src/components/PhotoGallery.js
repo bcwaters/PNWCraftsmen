@@ -33,8 +33,9 @@ export default function PhotoGallery(props) {
       {props.galleryImages.map(
         (entry) => (
         <SwiperSlide>
-          <img id="GalleryIcon"  src={entry} alt="PNWCraftsmen" />
+          <img id="GalleryIcon"  src={entry.img} alt="PNWCraftsmen" />
             <div onClick={props.toggleGallery} className="close">Close X</div>
+            <div className="GalleryCaption">{entry.desc}</div>
         </SwiperSlide>
 
       ))}

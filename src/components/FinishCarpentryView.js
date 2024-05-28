@@ -39,7 +39,9 @@ class FinishCarpentryView extends React.Component {
                 <img onClick={this.toggleGallery} src={trimIcon} className="GalleryIcon" alt="logo" />
                 <div onClick={this.toggleGallery} className="GalleryLink">Click to view trim work</div>
 
-                <PhotoGallery galleryImages={[trimIcon]} toggleGallery={this.toggleGallery} showGallery={this.state.showGallery}/>
+                <PhotoGallery galleryImages={[
+                          {img:trimIcon, desc: "Finish Work"},
+                ]} toggleGallery={this.toggleGallery} showGallery={this.state.showGallery}/>
           </div>
         </div>
       );

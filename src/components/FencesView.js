@@ -44,7 +44,13 @@ class FencesView extends React.Component {
                 <img onClick={this.toggleGallery} src={fenceIcon} className="GalleryIcon" alt="logo" />
                 <div onClick={this.toggleGallery} className="GalleryLink">Click to view fences</div>
 
-                <PhotoGallery galleryImages={[fenceIcon, deckIcon,stockFence, largeImage]} toggleGallery={this.toggleGallery} showGallery={this.state.showGallery}/>
+
+                <PhotoGallery galleryImages={[
+                 {img:fenceIcon, desc: "Privacy Fences"},
+                 {img:deckIcon, desc: "Good Neighbor Fence"},
+                 {img:fenceIcon, desc: "Shadow Box"},
+                 {img:stockFence, desc: "Horizontal Fence"}]}
+                 toggleGallery={this.toggleGallery} showGallery={this.state.showGallery}/>
           </div>
 
         </div>
