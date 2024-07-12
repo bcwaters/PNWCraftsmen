@@ -107,7 +107,9 @@ body {
   margin-left: 1vh;
   margin-right: 1vh;
   min-width:min(17vw, 260px);
- 
+  border-bottom-width:2px;
+    border-top-style:solid;
+    border-top-color:#f4e1be;
   
 
   font-size: min(3vw, 36px);
@@ -120,6 +122,7 @@ body {
     cursor: pointer;
     border-bottom-width:2px;
     border-top-style:solid;
+    border-top-color:#005838;
 }
 
 .Top-Bar{
