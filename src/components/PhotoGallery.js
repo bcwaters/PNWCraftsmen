@@ -20,9 +20,7 @@ export default function PhotoGallery(props) {
   return (
     <>
       <Swiper
-        pagination={{
-          type: 'fraction',
-        }}
+      
         navigation={true}
         modules={[Pagination, Navigation]}
         className="mySwiper"

@@ -6,6 +6,7 @@ import PhotoGallery from "./PhotoGallery.js"
 import deckIcon from "../res/deckicon.png"
 import stockFence from "../res/stockFencepg.jpeg"
 import largeImage from "../res/business_card_front.png"
+import ShadowboxFence from "../res/ShadowboxFence.png"
 
 class FencesView extends React.Component {
 
@@ -46,10 +47,10 @@ class FencesView extends React.Component {
 
 
                 <PhotoGallery galleryImages={[
-                 {img:fenceIcon, desc: "Privacy Fences"},
-                 {img:deckIcon, desc: "Good Neighbor Fence"},
-                 {img:fenceIcon, desc: "Shadow Box"},
-                 {img:stockFence, desc: "Horizontal Fence"}]}
+                  {img:fenceIcon, desc: "Privacy Fences"},
+                  {img:deckIcon, desc: "Good Neighbor Fence"},
+                  {img:ShadowboxFence, desc: "Shadowbox"},
+                  {img:stockFence, desc: "Horizontal Fence"}]}
                  toggleGallery={this.toggleGallery} showGallery={this.state.showGallery}/>
           </div>
 
