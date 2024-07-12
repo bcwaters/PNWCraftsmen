@@ -33,10 +33,11 @@ class DecksView extends React.Component {
             and composite.
             <br/><br/>
 
-            <br/><br/>
+          
 
             <br/>
-            PHONE EMAIL CHAT
+            We offer free quotes don't hesitate to text or call! <br></br>
+            503-504-7833
 
 
             <br/>

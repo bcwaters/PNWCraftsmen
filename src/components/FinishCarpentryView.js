@@ -20,16 +20,16 @@ class FinishCarpentryView extends React.Component {
         <div className="ContentView">
           <div className="ContentDescription">
 
-            The last %10 of any project is what stands our the most
+            I enjoy small detail oriented jobs.  If your home or small business needs a nice finishing touch I'm your guy.  
+            I build shelving and stands for organization, display cases, garden beds, and pretty much anything you dream up!
             <br/><br/>
 
-            We offer high quality trim work at competetive prices
             <br/><br/>
 
 
 
             <br/>
-            PHONE EMAIL CHAT
+
 
 
             <br/>
@@ -37,7 +37,7 @@ class FinishCarpentryView extends React.Component {
 
           <div className = "ContentIcon">
                 <img onClick={this.toggleGallery} src={trimIcon} className="GalleryIcon" alt="logo" />
-                <div onClick={this.toggleGallery} className="GalleryLink">Click to view trim work</div>
+                <div onClick={this.toggleGallery} className="GalleryLink">Click to view sample projects</div>
 
                 <PhotoGallery galleryImages={[
                           {img:trimIcon, desc: "Finish Work"},

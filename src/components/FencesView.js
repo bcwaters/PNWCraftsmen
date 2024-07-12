@@ -34,10 +34,12 @@ class FencesView extends React.Component {
             <br/><br/>
             If you need a new fence we can build it to last.  We can match any style
             of fence you need, or help you pick out a new one.
-            <br/><br/>
+            Summer Special! Demo, materials, and installation for $25 per foot<br></br>
+            <br></br><br/>
 
-            <br/>
-            PHONE EMAIL CHAT
+  
+            Limited time offer! Demo, materials, and installation for $25 per foot<br></br>
+            Text or call: 503-504-7833
             <br/>
           </div>
 

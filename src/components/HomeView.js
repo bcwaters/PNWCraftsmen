@@ -28,7 +28,7 @@ class HomeView extends React.Component {
 
             If you need carpenty work, let's discuss your needs and see if we're a
             good fit for each other.<br/>
-            PHONE EMAIL CHAT
+            503-504-7833
 
 
             <br/>

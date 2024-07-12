@@ -9,7 +9,7 @@ var views = {
   "Home" : <HomeView/>,
   "Fences": <FencesView/>,
   "Decks" : <DecksView/>,
-  "Finish Carpentry" : <FinishCarpentryView/>,
+  "Carpentry" : <FinishCarpentryView/>,
   "Contact" : <ContactView/>
 
 }

@@ -8,6 +8,11 @@
 
 }
 
+body {
+  font-family: 'Arial', Courier, monospace;
+  font-size: large;
+}
+
 .App-logo {max-width:1398px;
   width: 100vw;
   pointer-events: none;
@@ -101,10 +106,12 @@
 .NavLink{
   margin-left: 1vh;
   margin-right: 1vh;
-    max-width: 180px;
-  min-width:12vw;
+  min-width:min(18vw, 260px);
+ 
+  
 
   font-size: min(3vw, 36px);
+
   letter-spacing:2px;
 
 }

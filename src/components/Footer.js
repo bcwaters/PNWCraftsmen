@@ -6,7 +6,7 @@ class Footer extends React.Component {
       return(
         <div className="Footer">
           <img src={footerImage} className="App-logo" alt="logo" />
-          PNW Craftsmen LLC will be Licensed, Insured, and Bonded Soon CCB#123456
+          Oregon Licensed Contractor CCB#: 252081
         </div>
       );
     }
