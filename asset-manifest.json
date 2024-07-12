@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.e62aaddc.css",
+    "main.css": "/static/css/main.8cb9e403.css",
     "main.js": "/static/js/main.2badeacb.js",
     "static/js/453.8265f4e9.chunk.js": "/static/js/453.8265f4e9.chunk.js",
     "static/media/IpeDeck.jpg": "/static/media/IpeDeck.1332c3eb158e84fc8db1.jpg",
@@ -11,12 +11,12 @@
     "static/media/deckicon.png": "/static/media/deckicon.affe1e5389b030354c11.png",
     "static/media/TopBarImage.png": "/static/media/TopBarImage.1099e1187e6d04566d81.png",
     "index.html": "/index.html",
-    "main.e62aaddc.css.map": "/static/css/main.e62aaddc.css.map",
+    "main.8cb9e403.css.map": "/static/css/main.8cb9e403.css.map",
     "main.2badeacb.js.map": "/static/js/main.2badeacb.js.map",
     "453.8265f4e9.chunk.js.map": "/static/js/453.8265f4e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e62aaddc.css",
+    "static/css/main.8cb9e403.css",
     "static/js/main.2badeacb.js"
   ]
 }
