@@ -1,20 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.6f7a9569.css",
-    "main.js": "/static/js/main.ec7c33a0.js",
+    "main.css": "/static/css/main.e62aaddc.css",
+    "main.js": "/static/js/main.2badeacb.js",
     "static/js/453.8265f4e9.chunk.js": "/static/js/453.8265f4e9.chunk.js",
+    "static/media/IpeDeck.jpg": "/static/media/IpeDeck.1332c3eb158e84fc8db1.jpg",
+    "static/media/ShadowboxFence.png": "/static/media/ShadowboxFence.0e55c007c154a1724585.png",
     "static/media/business_card_front.png": "/static/media/business_card_front.ef69b7868a5344ac3c21.png",
     "static/media/footerImage.png": "/static/media/footerImage.8d78e5074b0a54f965a2.png",
     "static/media/stockFencepg.jpeg": "/static/media/stockFencepg.b80e7855ddce910b709f.jpeg",
     "static/media/deckicon.png": "/static/media/deckicon.affe1e5389b030354c11.png",
     "static/media/TopBarImage.png": "/static/media/TopBarImage.1099e1187e6d04566d81.png",
     "index.html": "/index.html",
-    "main.6f7a9569.css.map": "/static/css/main.6f7a9569.css.map",
-    "main.ec7c33a0.js.map": "/static/js/main.ec7c33a0.js.map",
+    "main.e62aaddc.css.map": "/static/css/main.e62aaddc.css.map",
+    "main.2badeacb.js.map": "/static/js/main.2badeacb.js.map",
     "453.8265f4e9.chunk.js.map": "/static/js/453.8265f4e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6f7a9569.css",
-    "static/js/main.ec7c33a0.js"
+    "static/css/main.e62aaddc.css",
+    "static/js/main.2badeacb.js"
   ]
 }
