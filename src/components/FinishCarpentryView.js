@@ -2,6 +2,10 @@ import React from 'react';
 import trimIcon from '../res/trimicon.png'
 import PhotoGallery from "./PhotoGallery.js"
 
+import cupHolder from '../res/cupholder.jpeg'
+import plexiglasscover from '../res/plexiglasscover.jpg'
+import spiceStand from '../res/spicestand.jpg'
+
 class FinishCarpentryView extends React.Component {
   constructor(props) {
   super(props);
@@ -36,11 +40,13 @@ class FinishCarpentryView extends React.Component {
           </div>
 
           <div className = "ContentIcon">
-                <img onClick={this.toggleGallery} src={trimIcon} className="GalleryIcon" alt="logo" />
+                <img onClick={this.toggleGallery} src={spiceStand} className="GalleryIcon" alt="logo" />
                 <div onClick={this.toggleGallery} className="GalleryLink">Click to view sample projects</div>
 
                 <PhotoGallery galleryImages={[
-                          {img:trimIcon, desc: "Finish Work"},
+                          {img:spiceStand, desc: "Spice Stand"},
+                          {img:plexiglasscover, desc: "Plexiglass cover"},
+                          {img:cupHolder, desc: "Cup Holder"},
                 ]} toggleGallery={this.toggleGallery} showGallery={this.state.showGallery}/>
           </div>
         </div>

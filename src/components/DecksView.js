@@ -1,6 +1,6 @@
 import React from 'react';
-import deckIcon from '../res/deckicon.png'
-
+import deckIcon from '../res/PINE.png'
+import compositeDeck from '../res/composite.jpg'
 import IpeDeck from '../res/IpeDeck.jpg'
 import PhotoGallery from "./PhotoGallery.js"
 
@@ -48,8 +48,10 @@ class DecksView extends React.Component {
                 <div onClick={this.toggleGallery} className="GalleryLink">Click to view decks</div>
 
                 <PhotoGallery galleryImages={[
+                  
                           {img:deckIcon, desc: "Wooden Deck"},
-                              {img:IpeDeck, desc: "Ipe Deck"}
+                              {img:IpeDeck, desc: "Ipe Deck"},
+                              {img:compositeDeck, desc: "Composite Deck"}
                         ]}
                     toggleGallery={this.toggleGallery} showGallery={this.state.showGallery}/>
           </div>

@@ -3,9 +3,9 @@ import fenceIcon from "../res/fenceicon.png"
 import PhotoGallery from "./PhotoGallery.js"
 
 
-import deckIcon from "../res/deckicon.png"
+import deckIcon from "../res/GoodNeighbor.jpg"
 import stockFence from "../res/stockFencepg.jpeg"
-import largeImage from "../res/business_card_front.png"
+import largeImage from "../res/horizontalfence.jpg"
 import ShadowboxFence from "../res/ShadowboxFence.png"
 
 class FencesView extends React.Component {
@@ -34,7 +34,6 @@ class FencesView extends React.Component {
             <br/><br/>
             If you need a new fence we can build it to last.  We can match any style
             of fence you need, or help you pick out a new one.
-            Summer Special! Demo, materials, and installation for $25 per foot<br></br>
             <br></br><br/>
 
   
@@ -44,15 +43,16 @@ class FencesView extends React.Component {
           </div>
 
           <div className = "ContentIcon">
-                <img onClick={this.toggleGallery} src={fenceIcon} className="GalleryIcon" alt="logo" />
+                <img onClick={this.toggleGallery} src={ShadowboxFence} className="GalleryIcon" alt="logo" />
                 <div onClick={this.toggleGallery} className="GalleryLink">Click to view fences</div>
 
 
                 <PhotoGallery galleryImages={[
-                  {img:fenceIcon, desc: "Privacy Fences"},
-                  {img:deckIcon, desc: "Good Neighbor Fence"},
+              
+                  
                   {img:ShadowboxFence, desc: "Shadowbox"},
-                  {img:stockFence, desc: "Horizontal Fence"}]}
+                  {img:largeImage, desc: "Horizontal"},
+                  ]}
                  toggleGallery={this.toggleGallery} showGallery={this.state.showGallery}/>
           </div>
 
