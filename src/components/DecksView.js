@@ -21,6 +21,7 @@ class DecksView extends React.Component {
       return(
         <div className="ContentView">
           <div className="ContentDescription">
+            <div className="ContentText">
             Decks should be pleasing to the eye,
             increase the amount of space utilized on your property, and add value to your home.
 
@@ -32,18 +33,13 @@ class DecksView extends React.Component {
             Our work on decks ranges from new builds to resurfacing to simple repairs.  We work with wood
             and composite.
             <br/><br/>
-
+          </div>
           
 
-            <br/>
-            We offer free quotes don't hesitate to text or call! <br></br>
-            503-504-7833
-
-
-            <br/>
           </div>
 
           <div className = "ContentIcon">
+            <div className = "galleryTitle">Deck Gallery</div>
                 <img onClick={this.toggleGallery} src={deckIcon} className="GalleryIcon" alt="logo" />
                 <div onClick={this.toggleGallery} className="GalleryLink">Click to view decks</div>
 

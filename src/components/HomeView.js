@@ -16,8 +16,9 @@ class HomeView extends React.Component {
     render(){
       return(
         <div className="HomeView">
-          <div className="ContentDescription">
-          PNW Craftsmen is a single crew operating in the Portland Metropolitan area.
+        
+          <div className="homeText" style={{marginLeft:"10vw", marginRight:"10vw"}}>
+          PNW Craftsmen is a single crew operating in the Greater Portland area.
             Our goal is to produce quality work and enjoy the process.  We
             achieve this by focusing on one project at a time. Every step of
             the process is overseen by the owner to
@@ -33,6 +34,7 @@ class HomeView extends React.Component {
 
             <br/>
           </div>
+       
         </div>
       );
     }

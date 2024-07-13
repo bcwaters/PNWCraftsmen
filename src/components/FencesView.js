@@ -27,6 +27,7 @@ class FencesView extends React.Component {
       return(
         <div className="ContentView">
           <div className="ContentDescription">
+          <div className="ContentText">
             The average lifespan of a good cedar fence ranges
             between 15 to 40 years. Often the posts and railings begin to fail before
             the fence pickets themselves. Sometimes a simple repair of a few sections
@@ -34,15 +35,14 @@ class FencesView extends React.Component {
             <br/><br/>
             If you need a new fence we can build it to last.  We can match any style
             of fence you need, or help you pick out a new one.
-            <br></br><br/>
+            <br></br>
 
   
-            Limited time offer! Demo, materials, and installation for $25 per foot<br></br>
-            Text or call: 503-504-7833
-            <br/>
+          </div>
           </div>
 
           <div className = "ContentIcon">
+          <div className = "galleryTitle">Fence Gallery</div>
                 <img onClick={this.toggleGallery} src={ShadowboxFence} className="GalleryIcon" alt="logo" />
                 <div onClick={this.toggleGallery} className="GalleryLink">Click to view fences</div>
 
