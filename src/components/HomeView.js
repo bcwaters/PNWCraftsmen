@@ -17,7 +17,7 @@ class HomeView extends React.Component {
       return(
         <div className="HomeView">
         
-          <div className="homeText" style={{marginLeft:"10vw", marginRight:"10vw"}}>
+          <div className="HomeText" style={{ fontWeight: 600, marginLeft:"10vw", marginRight:"10vw"}}>
           PNW Craftsmen is a single crew operating in the Greater Portland area.
             Our goal is to produce quality work and enjoy the process.  We
             achieve this by focusing on one project at a time. Every step of
@@ -29,7 +29,8 @@ class HomeView extends React.Component {
 
             If you need carpenty work, let's discuss your needs and see if we're a
             good fit for each other.<br/>
-            503-504-7833
+            <br></br>
+            You can call or text at 503-504-7833
 
 
             <br/>

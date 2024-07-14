@@ -9,8 +9,12 @@
 }
 
 body {
+  height:100%;
+  overflow: hidden;
   font-family: 'Arial', Courier, monospace;
   font-size: large;
+  color:#695738;
+
 }
 
 .AppLogo{max-width:1398px;
@@ -50,7 +54,9 @@ body {
 }
 
 
-.ContentDescription{
+.ContentDescription{  
+  
+  font-weight:600;
   display:flex;
   max-width: 800px;
   min-height: 30vh;
@@ -70,6 +76,7 @@ body {
 }
 
 .ContentBorder{
+
   border-radius:1%;
   border-style:ridge;
   border-width: 2px;
@@ -84,7 +91,7 @@ body {
   display:flex;
   align-items: center;
   max-width: 15vw;
- 
+  justify-content: center;
   flex-direction:column;
   
   margin-left:5vw;
@@ -142,13 +149,13 @@ body {
   margin-left: 1vh;
   margin-right: 1vh;
   min-width:min(16vw, 260px);
+  
   border-bottom-width:2px;
-    border-top-style:solid;
-    border-top-color:#f4e1be;
+  border-top-style:solid;
+  border-top-color:#f4e1be;
   
 
   font-size: min(3vw, 36px);
-
   letter-spacing:2px;
 
 }
