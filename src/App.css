@@ -13,8 +13,8 @@ body {
   font-size: large;
 }
 
-.App-logo {max-width:1398px;
-  width: 100vw;
+.AppLogo{max-width:1398px;
+  width: 99vw;
   pointer-events: none;
 }
 
@@ -24,7 +24,7 @@ body {
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
+  .AppLogo{
     animation: App-logo-spin 1 2s linear;
   }
   .TopBarImage {
@@ -59,28 +59,39 @@ body {
 
 }
 
-.galleryTitle{
+.GalleryTitle{
+
+
   font-size:large;
   font-weight: bold;
   color:#6a5147;
   margin-bottom:2vh;
-  margin-top:5vh;
+  padding-top:2vh;
+}
+
+.ContentBorder{
+  border-radius:1%;
+  border-style:ridge;
+  border-width: 2px;
+
+  border-right-color:#005838;
+  border-bottom-color:#005838;
+  background-color: #f4e1b1;
+  padding:10px;
+
 }
 .ContentIcon{
-
+  display:flex;
   align-items: center;
   max-width: 15vw;
+ 
+  flex-direction:column;
+  
   margin-left:5vw;
   margin-right:2vw;
   padding-left: 3vw;
   padding-right: 3vw;
-  border-radius:1%;
-  border-style:ridge;
-  border-width: 2px;
- 
-  border-right-color:#005838;
-  border-bottom-color:#005838;
-  background-color: #f4e1b1;
+
 
 }
 
@@ -102,17 +113,11 @@ body {
     border-width:1px;
 }
 
-
-
-
 .GalleryIcon{
-  max-width: 15vw;
-
-
-
+  max-width: 95%;
 }
 
-.content-Body{
+.ContentBody{
   padding-left: 2vw;
   max-width:1400px;
   min-height: 30vh;
@@ -136,7 +141,7 @@ body {
 .NavLink{
   margin-left: 1vh;
   margin-right: 1vh;
-  min-width:min(17vw, 260px);
+  min-width:min(16vw, 260px);
   border-bottom-width:2px;
     border-top-style:solid;
     border-top-color:#f4e1be;
@@ -155,7 +160,7 @@ body {
     border-top-color:#005838;
 }
 
-.Top-Bar{
+.TopBar{
   font-family: "Crimson Text", serif;
    font-weight: 600;
    font-size:4vw;

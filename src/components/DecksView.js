@@ -39,18 +39,21 @@ class DecksView extends React.Component {
           </div>
 
           <div className = "ContentIcon">
-            <div className = "galleryTitle">Deck Gallery</div>
-                <img onClick={this.toggleGallery} src={deckIcon} className="GalleryIcon" alt="logo" />
-                <div onClick={this.toggleGallery} className="GalleryLink">Click to view decks</div>
+            <div className="ContentBorder">
+              <div className = "GalleryTitle">Deck Gallery</div>
+              <img onClick={this.toggleGallery} src={deckIcon} className="GalleryIcon" alt="logo" />
+              <div onClick={this.toggleGallery} className="GalleryLink">View decks</div>
 
-                <PhotoGallery galleryImages={[
+              <PhotoGallery galleryImages={[
                   
                           {img:deckIcon, desc: "Wooden Deck"},
                               {img:IpeDeck, desc: "Ipe Deck"},
                               {img:compositeDeck, desc: "Composite Deck"}
                         ]}
                     toggleGallery={this.toggleGallery} showGallery={this.state.showGallery}/>
+            </div>
           </div>
+          
         </div>
       );
     }

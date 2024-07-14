@@ -17,7 +17,7 @@ class ContentBody extends React.Component {
 
     render(){
       return(
-        <div className="content-Body">
+        <div className="ContentBody">
         <div className="content-Top-Padding"/>
               {views[this.props.pageName]}
         </div>

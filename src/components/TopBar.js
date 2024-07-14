@@ -10,7 +10,7 @@ class TopBar extends React.Component {
 }
     render(){
       return(
-        <div className="Top-Bar">
+        <div className="TopBar">
         CONSTRUCTION & RESTORATION
               <div className="NavBarContainer">
                 <NavLink setPageName={this.props.setPageName} text="Home"/>

@@ -5,7 +5,7 @@ class Footer extends React.Component {
     render(){
       return(
         <div className="Footer">
-          <img src={footerImage} className="App-logo" alt="logo" />
+          <img src={footerImage} className="AppLogo" alt="logo" />
          <b> Oregon Licensed Contractor CCB#: 252081 </b>
         </div>
       );
