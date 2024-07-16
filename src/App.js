@@ -4,10 +4,15 @@ import TopBar from './components/TopBar';
 import Footer from './components/Footer'
 import './App.css';
 
+if (typeof window !== 'undefined') { // Check if we're running in the browser.
+  // ✅ Only runs once per app load
+  fetch("https://api.counterapi.dev/v1/pnwcraftsmen/pdx/up").then( asynch => {}).catch()
+}
+
 function App() {
 
-    const [name, setPageName] = useState("Home")
 
+    const [name, setPageName] = useState("Home")
 
   return (
     <div className="App">
