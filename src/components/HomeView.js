@@ -27,7 +27,7 @@ class HomeView extends React.Component {
 
             <br/><br/>
 
-            If you need carpenty work, let's discuss your needs and see if we're a
+            If you need carpentry work, let's discuss your needs and see if we're a
             good fit for each other.<br/>
             <br></br>
             You can call or text at 503-504-7833
