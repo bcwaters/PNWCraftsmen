@@ -8,6 +8,53 @@
 
 }
 
+.HomeView{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;  
+  
+}
+
+.BannerImage{
+  border-radius:1%;
+  border-style:ridge;
+  border-width: 2px;
+
+  border-right-color:#005838;
+  border-bottom-color:#005838;
+  
+  
+  background-color: #f4e1b1;
+  padding:2px;
+  
+ 
+  width: 95%;
+  max-width:1300px;
+  max-height: 250px;
+    
+    
+ }
+
+.HomeViewImage{
+ 
+  width: 100vw;
+  margin-top: -2vh;
+  margin-left:-2vw;
+
+}
+
+
+.HomeText{
+  max-height:25vh;
+  display: flexbox;
+ 
+  overflow: hidden;
+  font-size: 95%
+
+
+}
+
 body {
   height:100%;
   overflow: hidden;
@@ -18,6 +65,7 @@ body {
 }
 
 .AppLogo{max-width:1398px;
+  max-height: 35vh;
   width: 99vw;
   pointer-events: none;
 }

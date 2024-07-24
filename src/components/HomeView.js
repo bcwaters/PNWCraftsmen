@@ -1,4 +1,5 @@
 import React from 'react';
+import hogwireFence from "../res/wideHogwire.png"
 
 class HomeView extends React.Component {
   constructor(props) {
@@ -16,6 +17,10 @@ class HomeView extends React.Component {
     render(){
       return(
         <div className="HomeView">
+
+        <div className="HomeViewImage"> 
+           <img className="BannerImage" onClick={this.toggleGallery} src={hogwireFence}  alt="logo" />
+           </div>
         
           <div className="HomeText" style={{ fontWeight: 600, marginLeft:"10vw", marginRight:"10vw"}}>
           PNW Craftsmen is a single crew operating in the Greater Portland area.
@@ -35,6 +40,8 @@ class HomeView extends React.Component {
 
             <br/>
           </div>
+
+     
        
         </div>
       );

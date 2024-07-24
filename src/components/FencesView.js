@@ -1,5 +1,5 @@
 import React from 'react';
-import fenceIcon from "../res/fenceicon.png"
+import hogwireFence from "../res/hogwire.jpeg"
 import PhotoGallery from "./PhotoGallery.js"
 
 
@@ -43,13 +43,13 @@ class FencesView extends React.Component {
           <div className = "ContentIcon">
             <div className="ContentBorder">
               <div className = "GalleryTitle">Fence Gallery</div>
-              <img onClick={this.toggleGallery} src={ShadowboxFence} className="GalleryIcon" alt="logo" />
+              <img onClick={this.toggleGallery} src={hogwireFence} className="GalleryIcon" alt="logo" />
               <div onClick={this.toggleGallery} className="GalleryLink">View fences</div>
 
 
               <PhotoGallery galleryImages={[
               
-                  
+                  {img:hogwireFence, desc: "Hogwire"},
                   {img:ShadowboxFence, desc: "Shadowbox"},
                   {img:largeImage, desc: "Horizontal"},
                   ]}
