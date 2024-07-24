@@ -1,8 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.66674c9d.css",
-    "main.js": "/static/js/main.9e13b189.js",
+    "main.css": "/static/css/main.494558ad.css",
+    "main.js": "/static/js/main.3dfc4d94.js",
     "static/js/453.8265f4e9.chunk.js": "/static/js/453.8265f4e9.chunk.js",
+    "static/media/wideHogwire.png": "/static/media/wideHogwire.5097f4bfbec2aacd988f.png",
+    "static/media/hogwire.jpeg": "/static/media/hogwire.8b2417b31a2b09d505ff.jpeg",
     "static/media/IpeDeck.jpg": "/static/media/IpeDeck.1332c3eb158e84fc8db1.jpg",
     "static/media/cupholder.jpeg": "/static/media/cupholder.e59618f3edd7e902d276.jpeg",
     "static/media/spicestand.jpg": "/static/media/spicestand.a67878440b1e876596c4.jpg",
@@ -17,12 +19,12 @@
     "static/media/stockFencepg.jpeg": "/static/media/stockFencepg.b80e7855ddce910b709f.jpeg",
     "static/media/TopBarImage.png": "/static/media/TopBarImage.1099e1187e6d04566d81.png",
     "index.html": "/index.html",
-    "main.66674c9d.css.map": "/static/css/main.66674c9d.css.map",
-    "main.9e13b189.js.map": "/static/js/main.9e13b189.js.map",
+    "main.494558ad.css.map": "/static/css/main.494558ad.css.map",
+    "main.3dfc4d94.js.map": "/static/js/main.3dfc4d94.js.map",
     "453.8265f4e9.chunk.js.map": "/static/js/453.8265f4e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.66674c9d.css",
-    "static/js/main.9e13b189.js"
+    "static/css/main.494558ad.css",
+    "static/js/main.3dfc4d94.js"
   ]
 }
