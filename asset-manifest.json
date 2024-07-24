@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.494558ad.css",
-    "main.js": "/static/js/main.3dfc4d94.js",
+    "main.js": "/static/js/main.1e97e223.js",
     "static/js/453.8265f4e9.chunk.js": "/static/js/453.8265f4e9.chunk.js",
     "static/media/wideHogwire.png": "/static/media/wideHogwire.5097f4bfbec2aacd988f.png",
     "static/media/hogwire.jpeg": "/static/media/hogwire.8b2417b31a2b09d505ff.jpeg",
@@ -20,11 +20,11 @@
     "static/media/TopBarImage.png": "/static/media/TopBarImage.1099e1187e6d04566d81.png",
     "index.html": "/index.html",
     "main.494558ad.css.map": "/static/css/main.494558ad.css.map",
-    "main.3dfc4d94.js.map": "/static/js/main.3dfc4d94.js.map",
+    "main.1e97e223.js.map": "/static/js/main.1e97e223.js.map",
     "453.8265f4e9.chunk.js.map": "/static/js/453.8265f4e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.494558ad.css",
-    "static/js/main.3dfc4d94.js"
+    "static/js/main.1e97e223.js"
   ]
 }
